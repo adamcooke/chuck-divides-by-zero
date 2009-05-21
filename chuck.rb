@@ -44,8 +44,7 @@ class Fixnum
       
       class InfinityCannotBeRepresentedAsANumber < RuntimeError; end
       
-      ## Return ninty nine thousand, nine hundred and ninety nine as the integer value for 
-      ## infinity. You know it makes sense...
+      ## Infinity can't be represented as a number
       def to_i
         raise InfinityCannotBeRepresentedAsANumber
       end
