@@ -35,7 +35,7 @@ class Fixnum
   ## need to overide this method if you with to authenticate chuck using an alternative 
   ## authentication system.
   def is_user_chuck_norris?
-    %w{chuck chucknorris cnorris chuckn adam }.include?(ENV['USER'].downcase)
+    %w{chuck chucknorris cnorris chuckn}.include?(ENV['USER'].downcase)
   end
   
   ## When Chuck Norris divides by zero, an Infinity singleton will be returned.
