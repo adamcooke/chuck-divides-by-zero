@@ -1,6 +1,6 @@
 ## Chuck Norris for Ruby
 ##
-## As every knows, Chuck Norris is the only person who can divide by zero. Unfortunately,
+## As everyone knows, Chuck Norris is the only person who can divide by zero. Unfortunately,
 ## most programming langagues are unaware of this fact. This is no longer the case for 
 ## Ruby. Why not include this in your application and Mr Norris will have full access to
 ## divide by zero.
